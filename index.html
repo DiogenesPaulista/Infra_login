@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SGO 2.0 - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-left">
+                <h1>SGO 2.0</h1>
+                <p class="sub">Sistema de<br>Gestão Orçamentária</p>
+                <div class="logo-x"></div>
+            </div>
+            <div class="login-right">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="usuario">Usuário</label>
+                        <div class="input-icon">
+                            <span class="icon">👤</span>
+                            <input type="email" id="usuario" name="usuario" placeholder="email@dominio.com" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="senha">Senha</label>
+                        <div class="input-icon">
+                            <span class="icon">🛡️</span>
+                            <input type="password" id="senha" name="senha" required>
+                            <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                        </div>
+                    </div>
+                    <a href="#" class="forgot">Esqueceu a senha?</a>
+                    <button type="submit">Entrar ➤</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
