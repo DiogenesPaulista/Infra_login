@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url("img/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    width: 700px;
+    max-width: 90%;
+}
+
+.login-left {
+    background: linear-gradient(135deg, #2b4fc9, #5a79f4);
+    color: white;
+    padding: 30px 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.login-left .sub {
+    font-size: 14px;
+    margin: 15px 0;
+    color: orange;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.logo-x {
+    width: 40px;
+    height: 40px;
+    background: white;
+    mask: url("data:image/svg+xml;base64,...") center/contain no-repeat; /* substitua se tiver SVG */
+}
+
+.login-right {
+    padding: 30px 40px;
+    width: 60%;
+}
+
+.login-right h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.input-icon input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+}
+
+.input-icon .icon,
+.toggle-password {
+    padding: 0 10px;
+    font-size: 16px;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.forgot {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c3b91;
+}
